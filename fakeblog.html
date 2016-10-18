@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Fake BLog</title>
+        <meta name="description" content="This text would be displayed on Google as a description when accessing the link to the blog.">
+    </head>
+    <body>
+        <h1>WELCOME</h1>
+        <h2>to my fake blog</h2>
+        <p>
+            if you would like to search for actual blogs, please visit: <a href="http://www.google.com">Google</a>
+        </p>
+        <p>
+            This blog is intended to demonstrate the fundamentals of html code and the basics of building a website. These building blocks for websites, in html, are tags:
+        </p>
+        <ul>
+            <li>html</li>
+            <li>head</li>
+            <li>body</li>
+            <li>table</li>
+            <li>list</li>
+            <li>paragraph</li>
+        </ul>
+        <p>My favorite Bands and Songs</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>RHCP</th>
+                    <th>Nothing but Thieves</th>
+                    <th>21 Pilots</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Dani California</td>
+                    <td>Can't Stop</td>
+                    <td>Wet Sand</td>
+                </tr>
+                <tr>
+                    <td>Last Orders</td>
+                    <td>Drawing Pins</td>
+                    <td>Neon Brother</td>
+                </tr>
+                <tr>
+                    <td>Migaine</td>
+                    <td>Heavydirtysoul</td>
+                    <td>Car Radio</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>Great Lakes</p>
+		<ol>
+			<li>Superior</li>
+			<li>Michigan</li>
+			<li>Eerie</li>
+			<li>Huron</li>
+			<li>Ontario</li>
+		</ol>
+        <div id = "form">
+            <p>This <span id = "fhead">Political Poll</span> is pointless</p>
+            <form action="process.php">
+                <p>Who will you vote for?</p>
+                <select name="vote">
+                    <option value="trump">Trump</option>
+                    <option value="clinton">Hillary</option>
+                    <option value="third party">3rd Party</option>
+                    <option value="undecided">Undecided</option>
+                </select>
+                <p>Why?</p>
+                <input type="text" name="opinion" id="opinion">
+                <div id = "food">
+                    <p>Click all food you like:</p>
+                    <label>
+                        <input type="checkbox" name="food" id="pizza">Pizza
+                    </label>
+                    <label>
+                        <input type="checkbox" name="food" id="sushi">Sushi
+                    </label>
+                    <label>
+                        <input type="checkbox" name="food" id="chocolate">Chocolate
+                    </label>
+                </div>
+                <div id = "survey">
+                    <p></p>
+                    <label>
+                        <input type="radio" name="gender" id="male">Male
+                    </label>
+                    <label>
+                        <input type="radio" name="gender" id="female">Female
+                    </label>
+                </div>
+                <div id = "sub">
+                    <input type="submit" name="submit" id="submission">
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
